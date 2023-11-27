@@ -1725,7 +1725,7 @@
 
 						if (isIE(8)) {
 
-							sh.find('.slot ').last().find('.slotslide').append('<img src="../../public/'+imgsrc+'">');
+							sh.find('.slot ').last().find('.slotslide').append('<img src="././public/'+imgsrc+'">');
 							ieimgposition(sh,opt);
 						}
 
@@ -5493,7 +5493,7 @@
 			nextsh.find('.defaultimg').each(function() {
 				var defimg = jQuery(this);
 				if (nextsh.find('.kenburnimg').length==0)
-					nextsh.append('<div class="kenburnimg" style="position:absolute;z-index:1;width:100%;height:100%;top:0px;left:0px;"><img src="../../public/'+defimg.attr('src')+'" style="-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;position:absolute;width:'+imgobj.w+'%;height:'+imgobj.h+'%;"></div>');
+					nextsh.append('<div class="kenburnimg" style="position:absolute;z-index:1;width:100%;height:100%;top:0px;left:0px;"><img src="././public/'+defimg.attr('src')+'" style="-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;position:absolute;width:'+imgobj.w+'%;height:'+imgobj.h+'%;"></div>');
 				else {
 					nextsh.find('.kenburnimg img').css({width:imgobj.w+'%',height:imgobj.h+'%'});
 				}
