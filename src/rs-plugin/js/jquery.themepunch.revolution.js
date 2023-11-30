@@ -6038,4 +6038,3 @@ function revslider_showDoubleJqueryError(sliderID) {
 }
 
 		
-    
